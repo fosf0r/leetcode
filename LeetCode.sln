@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1672. Richest Customer Weal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2235. Add Two Integers", "2235. Add Two Integers\2235. Add Two Integers.csproj", "{781843B4-F310-4FFA-991A-1D6E9DFF9E6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "977. Squares of a Sorted Array", "977. Squares of a Sorted Array\977. Squares of a Sorted Array.csproj", "{D3B71B31-C43E-4253-8647-B83C541B0EBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1089. Duplicate Zeros", "1089. Duplicate Zeros\1089. Duplicate Zeros.csproj", "{C4C33CD6-1D82-4315-824E-71E544E43300}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{781843B4-F310-4FFA-991A-1D6E9DFF9E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{781843B4-F310-4FFA-991A-1D6E9DFF9E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{781843B4-F310-4FFA-991A-1D6E9DFF9E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3B71B31-C43E-4253-8647-B83C541B0EBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B71B31-C43E-4253-8647-B83C541B0EBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B71B31-C43E-4253-8647-B83C541B0EBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B71B31-C43E-4253-8647-B83C541B0EBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C33CD6-1D82-4315-824E-71E544E43300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C33CD6-1D82-4315-824E-71E544E43300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C33CD6-1D82-4315-824E-71E544E43300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C33CD6-1D82-4315-824E-71E544E43300}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
