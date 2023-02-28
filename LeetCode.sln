@@ -19,15 +19,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "485. Max Consecutive Ones",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1480. Running Sum of 1d Array", "1480. Running Sum of 1d Array\1480. Running Sum of 1d Array.csproj", "{3098E09D-97AD-4AE6-8E74-42DBF3E9C0A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "167. Two Sum II - Input Array Is Sorted", "167. Two Sum II - Input Array Is Sorted\167. Two Sum II - Input Array Is Sorted.csproj", "{051841BE-A011-4824-ACFF-FFB81DC8FC36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "167. Two Sum II - Input Array Is Sorted", "167. Two Sum II - Input Array Is Sorted\167. Two Sum II - Input Array Is Sorted.csproj", "{051841BE-A011-4824-ACFF-FFB81DC8FC36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1672. Richest Customer Wealth", "1672. Richest Customer Wealth\1672. Richest Customer Wealth.csproj", "{D68735A2-5F92-4C80-ABDE-DF12EFBBCDCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1672. Richest Customer Wealth", "1672. Richest Customer Wealth\1672. Richest Customer Wealth.csproj", "{D68735A2-5F92-4C80-ABDE-DF12EFBBCDCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2235. Add Two Integers", "2235. Add Two Integers\2235. Add Two Integers.csproj", "{781843B4-F310-4FFA-991A-1D6E9DFF9E6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2235. Add Two Integers", "2235. Add Two Integers\2235. Add Two Integers.csproj", "{781843B4-F310-4FFA-991A-1D6E9DFF9E6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "977. Squares of a Sorted Array", "977. Squares of a Sorted Array\977. Squares of a Sorted Array.csproj", "{D3B71B31-C43E-4253-8647-B83C541B0EBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "977. Squares of a Sorted Array", "977. Squares of a Sorted Array\977. Squares of a Sorted Array.csproj", "{D3B71B31-C43E-4253-8647-B83C541B0EBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1089. Duplicate Zeros", "1089. Duplicate Zeros\1089. Duplicate Zeros.csproj", "{C4C33CD6-1D82-4315-824E-71E544E43300}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1089. Duplicate Zeros", "1089. Duplicate Zeros\1089. Duplicate Zeros.csproj", "{C4C33CD6-1D82-4315-824E-71E544E43300}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Median of Two Sorted Arrays", "4. Median of Two Sorted Arrays\4. Median of Two Sorted Arrays.csproj", "{C6D72F73-A024-4A67-910D-2F8BF7B67ED6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "88. Merge Sorted Array", "88. Merge Sorted Array\88. Merge Sorted Array.csproj", "{3EF1B216-F45A-427B-A4D3-2AD47A37C017}"
 EndProject
@@ -89,10 +91,6 @@ Global
 		{C4C33CD6-1D82-4315-824E-71E544E43300}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4C33CD6-1D82-4315-824E-71E544E43300}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4C33CD6-1D82-4315-824E-71E544E43300}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3EF1B216-F45A-427B-A4D3-2AD47A37C017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3EF1B216-F45A-427B-A4D3-2AD47A37C017}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3EF1B216-F45A-427B-A4D3-2AD47A37C017}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3EF1B216-F45A-427B-A4D3-2AD47A37C017}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
