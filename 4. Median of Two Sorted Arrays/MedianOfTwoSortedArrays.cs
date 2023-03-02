@@ -28,28 +28,23 @@ Console.WriteLine(FindMedianSortedArrays(nums1b, nums2b)); // should return 2.5
 }
 */
 
-double FindMedianSortedArrays(int[] nums1, int[] nums2)
-{
+double FindMedianSortedArrays(int[] nums1, int[] nums2) {
     double answer = 0;
     List<int> merged = new();
 
-    for (int i = 0; i < nums1.Length; i++)
-    {
+    for (int i = 0; i < nums1.Length; i++) {
         merged.Add(nums1[i]);
     }
-    for (int i = 0; i < nums2.Length; i++)
-    {
+    for (int i = 0; i < nums2.Length; i++) {
         merged.Add(nums2[i]);
     }
 
     merged.Sort(); // naive sort in place
 
-    if (merged.Count % 2 == 0)
-    {
+    if (merged.Count % 2 == 0) {
         int left = (merged.Count - 1) / 2;
         answer = (double)(merged[left] + merged[left + 1]) / 2;
-    } else
-    {
+    } else {
         answer = merged[merged.Count - 1 - (merged.Count / 2)];
     }
 
