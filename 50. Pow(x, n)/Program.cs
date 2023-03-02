@@ -8,37 +8,25 @@ Console.WriteLine(MyPow(1.00000f, 0));
 Console.WriteLine(MyPow(8.95371f, -1));
 
 double MyPow(double x, int n) {
-    int count;
-    if (n >= 0) {
-        count = n;
-    } else {
-        count = n * -1;
-    }
-    if (n == 0) {
+    var count = n >= 0 ? n : n * -1;
+    if (n == 0 || x == 1) {
         return 1;
     }
-    if (x == 1) {
-        return 1;
-    }
-    if (x == -1 && n > 0) {
-        return -1;
-    }
-    if (x == -1 && n < 0) {
-        return 1;
+    switch (x) {
+        case -1 when n > 0:
+            return -1;
+        case -1 when n < 0:
+            return 1;
     }
     if (n == 1) {
         return x;
     }
-    if (count > 2147483646) {
+    if (count > 2147483646) { // lol
         return 0;
     }
     double mine = x;
     for (int i = 0; i < count - 1; i++) {
-        x = x * mine;
+        x *= mine;
     }
-    if (n < 0) {
-        return 1 / x;
-    } else {
-        return x;
-    }
+    return n < 0 ? 1 / x : x;
 }
