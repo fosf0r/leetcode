@@ -24,9 +24,9 @@ double MyPow(double x, int n) {
     if (count > 2147483646) { // lol
         return 0;
     }
-    double mine = x;
+    double originalself = x;
     for (int i = 0; i < count - 1; i++) {
-        x *= mine;
+        x *= originalself;
     }
     return n < 0 ? 1 / x : x;
 }
