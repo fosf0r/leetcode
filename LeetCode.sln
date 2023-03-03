@@ -33,7 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "88. Merge Sorted Array", "8
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Median of Two Sorted Arrays", "4. Median of Two Sorted Arrays\4. Median of Two Sorted Arrays.csproj", "{B625680D-4ABB-4B87-AD94-981294412E28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. Valid Parentheses", "20. Valid Parentheses\20. Valid Parentheses.csproj", "{0D927FD6-74B4-4205-8309-5B96B2543A9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20. Valid Parentheses", "20. Valid Parentheses\20. Valid Parentheses.csproj", "{0D927FD6-74B4-4205-8309-5B96B2543A9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "50. Pow(x, n)", "50. Pow(x, n)\50. Pow(x, n).csproj", "{6FF618C1-2834-4BDA-983F-A13D1015D0C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1812. Determine Color of a Chessboard Square", "1812. Determine Color of a Chessboard Square\1812. Determine Color of a Chessboard Square.csproj", "{A3F6FC3F-B473-4DAB-BC40-FC01B320DD1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,14 @@ Global
 		{0D927FD6-74B4-4205-8309-5B96B2543A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D927FD6-74B4-4205-8309-5B96B2543A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D927FD6-74B4-4205-8309-5B96B2543A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FF618C1-2834-4BDA-983F-A13D1015D0C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF618C1-2834-4BDA-983F-A13D1015D0C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF618C1-2834-4BDA-983F-A13D1015D0C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF618C1-2834-4BDA-983F-A13D1015D0C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3F6FC3F-B473-4DAB-BC40-FC01B320DD1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F6FC3F-B473-4DAB-BC40-FC01B320DD1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F6FC3F-B473-4DAB-BC40-FC01B320DD1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F6FC3F-B473-4DAB-BC40-FC01B320DD1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
