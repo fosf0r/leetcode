@@ -6,7 +6,14 @@ Console.WriteLine(SquareIsWhite("e7")); // false
 Console.WriteLine(SquareIsWhite("b3")); // true
 
 
+// crazy version
 bool SquareIsWhite(string coordinates) {
+    bool flip = (coordinates[0] == 'a' || coordinates[0] == 'c' || coordinates[0] == 'e' || coordinates[0] == 'g') ? false : true;
+    return (coordinates[1] == '1' || coordinates[1] == '3' || coordinates[1] == '5' || coordinates[1] == '7') ? flip : !flip;
+}
+
+// my first version
+/*bool SquareIsWhite(string coordinates) {
     bool flip;
     switch (coordinates[0]) {
         case 'a' or 'c' or 'e' or 'g': {
@@ -27,3 +34,4 @@ bool SquareIsWhite(string coordinates) {
         }
     }
 }
+*/
