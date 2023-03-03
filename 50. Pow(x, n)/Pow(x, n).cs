@@ -24,7 +24,7 @@ double MyPow(double x, int n) {
     if (count > 2147483646) { // lol
         return 0;
     }
-    double originalself = x;
+    var originalself = x;
     for (int i = 0; i < count - 1; i++) {
         x *= originalself;
     }
