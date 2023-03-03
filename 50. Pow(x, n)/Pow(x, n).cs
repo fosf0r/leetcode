@@ -28,5 +28,5 @@ double MyPow(double x, int n) {
     for (int i = 0; i < count - 1; i++) {
         x *= originalself;
     }
-    return n < 0 ? 1 / x : x;
+    return n < 0 ? (1 / x) : x;
 }
