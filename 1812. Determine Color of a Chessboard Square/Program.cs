@@ -6,6 +6,13 @@ Console.WriteLine(SquareIsWhite("e7")); // false
 Console.WriteLine(SquareIsWhite("b3")); // true
 
 
+// thanks, ChatGPT
+bool SquareIsWhite(string c) {
+    return (c[0] == 'a' || c[0] == 'c' || c[0] == 'e' || c[0] == 'g') ?
+       ((c[1] == '1' || c[1] == '3' || c[1] == '5' || c[1] == '7') ? false : true) :
+       ((c[1] == '1' || c[1] == '3' || c[1] == '5' || c[1] == '7') ? true : false);
+}
+
 // crazy version
 bool SquareIsWhite(string coordinates) {
     bool flip = (coordinates[0] == 'a' || coordinates[0] == 'c' || coordinates[0] == 'e' || coordinates[0] == 'g') ? false : true;
